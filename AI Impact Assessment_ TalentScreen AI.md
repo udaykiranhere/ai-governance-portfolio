@@ -120,4 +120,31 @@ Initiate an immediate reassessment when any of the following occurs:
 
 Accountability
 
-The AI Governance Committee makes the final decision on whether deployment may proceed, continue, or resume. It has authority to block a launch or suspend an existing deployment if risks exceed the organization’s risk tolerance.  
+The AI Governance Committee makes the final decision on whether deployment may proceed, continue, or resume. It has authority to block a launch or suspend an existing deployment if risks exceed the organization’s risk tolerance.
+
+## Section 6\. Article 50 Transparency Compliance Plan
+
+### Applicability to TalentScreen AI
+
+**Does TalentScreen AI interact directly with candidates?**  
+In the current workflow, candidates submit their résumés through an application form and TalentScreen AI scores them in the background. Because the score affects whether a candidate advances, **Article 26(11)** requires the deploying organization to inform candidates that the high-risk AI system is being used. If TalentScreen AI later introduces a candidate-facing feature such as a screening chatbot, **Article 50(1)** applies to that direct interaction, subject to its exceptions. [ai-act-service-desk.ec.europa.eu](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26?trk=article-ssr-frontend-pulse_little-text-block&utm_source=chatgpt.com)
+
+**Does TalentScreen AI generate content that candidates receive?**  
+If TalentScreen AI writes rejection emails or status notifications, the provider must address **Article 50(2)** by marking the generated text in a machine-readable format so it can be detected as AI-generated, subject to the provision’s exceptions. If a score simply triggers a fixed, human-written email template, the email is an automated notification. [ai-act-service-desk.ec.europa.eu](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50?full=1&utm_source=chatgpt.com)
+
+**Does TalentScreen AI perform emotion recognition or biometric categorization?**  
+No. TalentScreen AI processes text-based résumés and does not analyze facial expressions, voice, or other biometric data. The disclosure duties in **Article 50(3)** therefore do not apply to the system as described. [ai-act-service-desk.ec.europa.eu](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50?full=1&utm_source=chatgpt.com)
+
+## **How Article 50 Relates to Articles 13 and 14**
+
+**Article 13** requires high-risk AI systems to give deploying organizations enough information to interpret and use their outputs appropriately. **Article 14** requires those systems to support effective human oversight. **Article 50** establishes specific transparency duties for uses such as direct AI interactions and AI-generated content. For TalentScreen AI’s background screening workflow, **Article 26(11)** is the basis for informing candidates that AI is used in the hiring decision. [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32024R1689&utm_source=chatgpt.com)
+
+## **Transparency Disclosure Plan**
+
+1. **When candidates are informed.** Display the notice before candidates submit the application and before TalentScreen AI processes their résumés.  
+2. **What information is provided.** Explain that TalentScreen AI uses natural language processing to assess résumés against job criteria, assign suitability scores, and rank applications. State how the score affects progression to the interview stage and tell candidates how to request human review.  
+3. **How the disclosure is delivered.** Place a visible, accessible notice next to the application form’s **Submit** button. Repeat the notice and the human review contact in the acknowledgment email sent after submission.  
+4. **How AI-generated messages are marked.** If TalentScreen AI generates the wording of rejection emails or status notifications, have the provider supply a machine-readable marker and configure the sending system to preserve it. Evaluate an email header or structured metadata field as an option. Before using it, verify that the marker survives email delivery and that receiving systems can detect it.
+
+> 
+
